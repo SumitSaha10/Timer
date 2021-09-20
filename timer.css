@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.time{
+    color: lime;
+    font-size: 4rem;
+    
+    background: none;
+}
+
+.btn{
+    background: rgb(245, 221, 10);
+    border: none;
+    box-shadow: 0 0 20px rgb(245, 221, 10);
+    font-size: 2rem;
+    border-radius: 15px;
+    padding: 0.5rem;
+    margin: 0.8rem;
+    
+}
